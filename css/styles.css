@@ -1,0 +1,138 @@
+#title{
+  color: white;
+  background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://tinder.com/static/build/m/b07fe760ab4714aa3e932a15657494e5.jpg");
+  height: 900px;
+}
+
+p{
+  text-align: justify;
+  font-family: 'Ubuntu';
+}
+
+.divider{
+  width: 30%;
+}
+
+.bg1{
+  text-align: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.SuperHeading{
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 500%;
+}
+
+.nav-item{
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.tinderlogo{
+  width: 30%;
+  height: 30%;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+.Client-name{
+  font-size: 3rem;
+  padding: 1.5%;
+  font-weight: bolder;
+  font-family: 'Montserrat';
+}
+
+.persons{
+  width: 50%;
+  border-radius: 100% 100%;
+}
+
+.container{
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  border-radius: 12% 12%;
+  border: solid #C33764;
+  border-width: thick;
+  padding: 1.5%;
+  margin: 1.5%;
+}
+
+#btn{
+  margin: 10px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #C33764;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #C33764;
+}
+
+
+#carouselPerson{
+  text-align: center;
+}
+
+.PressHeading{
+  font-size: 4rem;
+  background: -webkit-linear-gradient(rgba(29, 38, 113), rgba(195, 55, 100));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Montserrat';
+}
+
+.presslogo{
+  width: 15%;
+  margin: 3%;
+}
+
+#press{
+  padding: 4%;
+  text-align: center;
+}
+
+
+
+.socialicons{
+  display: inline-block;
+  width: 5%;
+  margin: 3%;
+}
+
+#social{
+  padding: 4%;
+  text-align: center;
+}
+
+
+footer{
+  text-align: center;
+}
